@@ -1,0 +1,30 @@
+return {
+	"neovim/nvim-lspconfig",
+	config = function()
+		vim.lsp.enable({
+			"angularls",
+			"astro",
+			"bashls",
+			"clangd",
+			"cobol_ls",
+			"cssls",
+			"docker_compose_language_service",
+			"dockerls",
+			"emmet_ls",
+			"eslint",
+			"graphql",
+			"helm_ls",
+			"html",
+			"jdtls",
+			"jsonls",
+			"lua_ls",
+			"marksman",
+			"pyright",
+			"ruff",
+			"sqlls",
+			"taplo",
+			"ts_ls",
+			"yamlls"
+		})
+	end,
+}
